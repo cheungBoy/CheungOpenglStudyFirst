@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CheungOpenglView.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor blackColor];
+    CheungOpenglView *cheungV = [[CheungOpenglView alloc] init];
+    cheungV.frame = CGRectMake(0, 0, 200, 200);
+    [self.view addSubview:cheungV];
+    cheungV.center = self.view.center;
 }
 
 - (void)didReceiveMemoryWarning {

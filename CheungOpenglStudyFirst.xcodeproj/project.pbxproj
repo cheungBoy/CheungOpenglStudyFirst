@@ -13,6 +13,7 @@
 		0C12D27B1CEB186900694839 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C12D2791CEB186900694839 /* Main.storyboard */; };
 		0C12D27D1CEB186900694839 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C12D27C1CEB186900694839 /* Assets.xcassets */; };
 		0C12D2801CEB186900694839 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C12D27E1CEB186900694839 /* LaunchScreen.storyboard */; };
+		0C12D2891CEB18D200694839 /* CheungOpenglView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C12D2881CEB18D200694839 /* CheungOpenglView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		0C12D27C1CEB186900694839 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C12D27F1CEB186900694839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C12D2811CEB186900694839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C12D2871CEB18D200694839 /* CheungOpenglView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheungOpenglView.h; sourceTree = "<group>"; };
+		0C12D2881CEB18D200694839 /* CheungOpenglView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheungOpenglView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				0C12D2741CEB186900694839 /* AppDelegate.m */,
 				0C12D2761CEB186900694839 /* ViewController.h */,
 				0C12D2771CEB186900694839 /* ViewController.m */,
+				0C12D2871CEB18D200694839 /* CheungOpenglView.h */,
+				0C12D2881CEB18D200694839 /* CheungOpenglView.m */,
 				0C12D2791CEB186900694839 /* Main.storyboard */,
 				0C12D27C1CEB186900694839 /* Assets.xcassets */,
 				0C12D27E1CEB186900694839 /* LaunchScreen.storyboard */,
@@ -153,6 +158,7 @@
 				0C12D2781CEB186900694839 /* ViewController.m in Sources */,
 				0C12D2751CEB186900694839 /* AppDelegate.m in Sources */,
 				0C12D2721CEB186900694839 /* main.m in Sources */,
+				0C12D2891CEB18D200694839 /* CheungOpenglView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +274,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CheungOpenglStudyFirst/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cheung.CheungOpenglStudyFirst;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cheung;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -279,7 +285,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CheungOpenglStudyFirst/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cheung.CheungOpenglStudyFirst;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cheung;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -303,6 +309,7 @@
 				0C12D2861CEB186900694839 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
